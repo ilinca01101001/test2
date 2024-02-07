@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="menu-hitbox" onclick="toggleMenu()">
+        <div class="menu-toggle">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </div>
+  </div>
+  <nav class="menu">
+      <ul>
+          <li><a href="#" onclick="showPage('home')">>Home</a></li>
+          <li><a href="#" onclick="showPage('teams')">>Teams</a></li>
+          <li><a href="#" onclick="showPage('credits')">>Credits</a></li>
+      </ul>
+  </nav>
+<div class="content" id="home">
+    <div>
+        <h2>Instant Universe: Ramen in space</h2>
+        <h3>We are cooking RAMEN in SPACE. Want to find out more about our project and help us?<br> Check out the epic teams and especially the cinematic trailer! Everyone is welcome! </h3>
+    <div class="video-and-team-container">
+        <div>
+            <iframe width="900" height="600" src="https://www.youtube.com/embed/-J4OlTk5Vy8?si=E7-Rtu5bQuIdSTyB&autoplay=1" title="Trailer Ramen" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div id="Team">
+            <h2>Our Team:</h2>
+            <img src="https://yt3.ggpht.com/kmpRjWcFkUG3pFajeIpvfB5-EhTpYtkUWiIwn6AxSzDfU-LXQmekedMwTyrSdnlh10-ga9LO-tUPPw=s800-nd-v1" width="700px" hight="600px" alt="Members">
+        </div>
+    </div>
+
+    <div class="gallery">
+        <h3>____________________________________________________________________________________</h3>
+        <h2>Galery</h2>
+        </br>
+        <iframe width="500" height="515" src="https://www.youtube.com/embed/kPV9rufZMvo?si=lbusfIEdYlMmCLel" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <img src="https://yt3.ggpht.com/SbtZ-G1CvkS2jYOSczbGc7RK-X2o1xzWbgjTpUTxk2CH63DHH_pN5KE9TnDUXfFJwHMK4wCjzJrs_-E=s800-c-fcrop64=1,00000000ffffffff-nd-v1" width="500px" alt="Balloon">
+        <img src="https://yt3.ggpht.com/Vfb9k7y9O2tWJB3AI5A8FAIih0lYS5fWIhkC8Rk9KybZjtXXNtmK2G4KcDAeCJHr_Ty6Saw_VV3RGA=s800-c-fcrop64=1,00000000ffffffff-nd-v1" width="500px" alt="Ramen Rocket">
+        <img src="https://yt3.ggpht.com/a4Ekat4d2QNRnfEJ6zaYetom8JX5WgdN0akQvlFsXpoRDJ0nOuIpJgTMH6DdAQSObhrRQT_Z_lolBQ=s800-c-fcrop64=1,13740000ec8bffff-nd-v1" width="500px" alt="Logo">
+        <img src="https://yt3.ggpht.com/HI17biu3gr1Lcw2lYipSnu_ONQfs6hyjpswGaWe0VmulrapKLTrcfyYj0vnCVupV3kVmNrvJOYt3JA=s800-c-fcrop64=1,00000000ffffffff-nd-v1" width="500px" alt="Ramen World">
+        <img src="https://yt3.ggpht.com/B370_JSEdl3Zqe_0h-I7wEKQTrFoHi0SI1P60hrPw4eCm3XEHJYPKu4QYIuhV8gL2KFr5P-yEJED2w=s800-c-fcrop64=1,01880000fe77ffff-nd-v1" width="500px" alt="Ramen Rocket2">
+    </div>
+
+    <div>
+        <h3>____________________________________________________________________________________</h3>
+        <h2>Join our journey!</h2>
+        <h2>Social media:</h2>
+        <h2><a href="https://www.youtube.com/@InstantUniverse" target="_blank">YouTube 📹</a></br></h2>
+        <h2><a href="https://www.tiktok.com/@instant.universe?is_from_webapp=1&sender_device=pc"target="_blank">TikTok 🤳</a><br></h2>
+        <h2><a href="https://www.instagram.com/instantramen586?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"target="_blank">Insta 📸</a><br></h2>
+        <h2><a href="https://www.patreon.com/InstantUniverse" target="_blank">Patreon ⭐</a></h2>
+        </br>
+        <h4>Email address for buissnes/ideas/requests/donations ✉️:</h4>
+        <h4>instantuniverse595@gmail.com</h4>
+    </div>
+
+
+</div>
+<div class="content" id="teams" style="display:none;">
+    <h3>Teams</h3>
+    <p>Chemistry, computer science and technical implemintation plans, music, design, materials, budget, publicity.</p>
+</div>
+<div class="content" id="credits" style="display:none;">
+    <h2>Credits</h2>
+    <p>This is the credits page content.</p>
+</div>
+</body>
+</html>
